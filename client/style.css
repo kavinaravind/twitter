@@ -1,0 +1,98 @@
+/*
+ * ---------------------
+ * FLAIR #3 + #4
+ * ---------------------
+ *
+ * Style the page to make it look way better.
+ *
+ *	- Added a background image
+ *	- Altered twitter name with image
+ *	- Altered tweet button image
+ * 	- Altered follow button image
+ * 	- Altered unfollow button image
+ * 	- Altered switch-user button image
+ */
+
+
+#tweet-list li {
+  margin: 5px 0px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+
+#tweet-list .tweet .favorite-link {
+
+}
+
+#tweet-list .tweet .favorite-count {
+  
+}
+
+#tweet-list .tweet .retweet-link  {
+
+}
+
+#tweet-list .tweet .retweet-indicator {
+
+}
+
+
+.tweet-username {
+  font-weight: bold;
+}
+
+#todo h1 {
+  color: transparent;
+  background: url('twitter-logo.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+#follow-button {
+  color: transparent;
+  background: url('followbutton.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  width: 85px;
+  margin: 5px 0px;
+}
+
+#unfollow-button {
+  color: transparent;
+  background: url('unfollowbutton.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  width: 110px;
+  margin: 5px 0px;
+}
+
+#switch-user-button {
+  background: url('switchuserbutton.png');
+  background-size: auto 100%;
+  width: 120px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: transparent;
+  border-width: 1px;
+}
+
+#tweet-button {
+  background: url('tweet-button.png');
+  background-size: auto 100%;
+  width: 80px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: transparent;
+  border-width: 1px;
+}
+
+#follow-button {
+  outline:0;
+}
+
+body {
+  background-image: url('twitter_logo.jpg');
+}
